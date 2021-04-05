@@ -6,9 +6,9 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700); 
 p {
-	font-size: 14px;
+	font-size: 17px;
 	line-height: 22.4px;
-	color: #6c7279;
+	color: #000000;
 }
 h1 {
 	font-size: 65px;
@@ -128,7 +128,7 @@ ul li {
 	text-decoration:none;
 	text-transform:uppercase;
 	letter-spacing: 2px;
-	background: #2b99e4;
+	background: #4b77ee;
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -364,18 +364,37 @@ ul li {
 	$intro
 ========================================================================== */
 .intro {
-	background-color: #2b99e4;
+	background-color: #ffffff;
 	/* color: #000; */
 }
 .intro h3 {
-	color: #fff;
+	color: rgb(0, 0, 0);
 	margin-top: 0;
 	margin-bottom: 20px;
 	font-size: 35px;
 }
+#text {
+    left: 5%;
+    top: 15%;
+}
+.text1 {
+    position: relative;
+    font-family: Open;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 300%;
+    right: 5%;
+	color:#000;
+	
+}
+
 .intro p { 
-	color: #fff;
-	font-weight: 400;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 /* -----------------------------------------------------------------------------
 Common Styles
